@@ -1,0 +1,66 @@
+body, .main-body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+.main-body{
+	/*margin: 0 auto;*/
+	position: relative;
+	/*height: 100%;*/
+}
+table{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+td{
+	border: 1px solid #ccc;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+}
+.options{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	opacity: .8;
+	z-index: 100;
+}
+.options td{
+	border: 0 none;
+	width: 40px;
+}
+#J_death_bt{
+	display: none;
+}
+#J_opt .ui-btn-icon-notext{
+	width: 32px;
+	height: 32px;
+}
+#J_opt .ui-btn-icon-notext .ui-btn-inner {
+	padding-left: 3px;
+	padding-top: 3px;
+}
+.food_1{
+	background: #7F92FF;
+}
+.food_2{
+	background: #319E1B;
+}
+.food_3{
+	background: #7F00FF;
+}
+.food_11{
+	background: #F7B940;
+}
+.food_12{
+	background: #A3BB41;
+}
+.food_21{
+	background: #eee;
+}
+.food_22{
+	background: #000;
+}
